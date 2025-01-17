@@ -22,9 +22,9 @@ The Olympic Games have long been a platform to showcase the pinnacle of human pe
 
 There are several reasons as to why I picked this plot. At first sight, it attracts attention with its coloured tiles, and it looks well-organised with the facets and labeled data points. Getting above such features with a brand new design seemed challenging - and I liked the idea.
 
-Second, after careful exploration, I noticed that there was something wrong with the representation of sports: some sports were not present in the 1960 Summer Olympic games, however they were displayed it the facets that demonstrate 2016 games, which was precisely the moment that gave me the idea that this work was in fact not perfect. 
+Second, after careful exploration, I noticed that there was something wrong with the representation of sports: some sports were not present in the 1960 Summer Olympic games, however they were displayed in the facets that demonstrate 2016 games. Already spotting an issue in the visualisation, I will try and make an alternative to it that is simpler and more meaningful.
 
-To not spoil all the fun by revealing the ideas, let's proceed to data cleaning and adjusting section.
+Before I go around spoiling all the fun by revealing my ideas, let's proceed to data cleaning and adjusting section.
 
 
 ![Olympic Graph. Source: [Visual Capitalist](https://www.visualcapitalist.com/)](olympics.png){width="100%" .external}
@@ -363,13 +363,13 @@ Another issue with the plot is that the data point trends are not easy to follow
 
 ### Possible improvements
 
-1. As the original plot's biggest weakness is the difficulty in tracking individual sports' trends over time, I try to address this issue by using a slope chart as my alternative plot. A slope chart is useful when comparing trends over time, using two data points for each observation and a line that connects those two data points. 
+1. As the original plot's biggest weakness is the difficulty in tracking trends of individual sports over time, I will try to address this issue by using a slope chart as the alternative. A slope chart is useful when comparing trends over time, using two data points for each observation and a line that connects those two data points. 
 
 2. Most sports branches have somewhat similar BMI values, which eventually leads to a plot that has many overlappings. A slope chart is likely to reduce those overlappings while still emphasising trends.
 
-3. I can change the title, coming up with a more striking one. Also I can use a fancy font. The font and colouring has actually been my favourite part for this study.
+3. I might change the title - or the subtitle- and come up with a striking one. I might also use a distinctive font that will contribute to originality of the visual.
 
-4. Who does not love 8-bit stuff? Well, not me. The inspiration of my alternative plot will be 8-bit aesthetics. I had to do it, because for my whole childhood I played 'Track & Field'!
+4. Who does not love 8-bit stuff? Well, not me. The inspiration of my alternative plot will be 8-bit aesthetics. I do not see why not, I spent my whole childhood playing 'Track & Field'!
 
 ### Challenges
 
@@ -377,7 +377,8 @@ The closely clustered nature of the data points and the lack of direct connectio
 
 In my first attempt, I completely excluded women's sports that were present in both Olympic games (which amounted to 6 branches in total). 
 
-In the second attempt, I'll omit some of the men's sports branches and include women's sports into my plot. But for now, let's move onto the first one.
+In the second attempt, which is an output subsequent to the class presentation, I'll omit some of the men's sports branches and include women's sports into my plot. But for now, let's move onto the first one.
+
 
 ### Working with the data
 
@@ -1000,6 +1001,6 @@ To remedy this, I set aside some of the men's sports and adjusted the number of 
 
 Another issue raised during the presentation was related to the annotation. When a classmate asked about what the BMI values represented, I realized that my annotation might not be as visible to the reader as I intended. Therefore, I slightly increased its size to enhance visibility. But really, it is not that bad! :)
 
-Lastly, I received criticism about my legend's colorfulness and the space it occupies in the plot. I decided not to address the colorfulness; because I like it that way. The space issue was resolved when I moved to two facets and reduced the number of sports displayed. Now, I believe my plot has a better balance between the sizes of the plot and legend.
+Lastly, I received criticism regarding colourfulness of the legend and the space it occupies in the plot. I decided to not address the colourfulness; simply because I like it that way. The space issue was resolved when I moved to having only two facets and reduced the number of sports displayed. Now, I believe my plot has a better balance between the sizes of the plot and legend.
 
-Time for self-criticism - What I do not like very much about this plot is the spaces in the upper area of women's sports facet. I was  not able to find a way around it to make it appear more filled, since it is due to the nature of data. Women's BMI values start at a low point and do not show dramatic increases that would fill the upper side of the facet. 
+Time for self-criticism - What I do not like very much about this plot is the space in the upper area of women's sports facet. I was not able to find a way around this issue and make the second facet appear more occupied, simply becaus it happens due to the nature of data. Women's BMI values start at a low point and do not show dramatic increases that would fill the upper side of the facet. 
